@@ -7,8 +7,8 @@ Sou programador **Fullstack** e atualmente estou sendo treinado pela **Trybe**.
 - 👨🏽‍💻 Sou muito bom com **algoritmos** e **estrutura de dados**;
 - 🌱 Uso **React** no **front-end** e **node** para o **back-end**; 
 - 🤔 Meus hobbies são musculação / calistenia e videos e jogos de terror;
-- 📫 Meu email: andreytsuzuki@gmail.com
-
+- 📫 Meu email: andreytsuzuki@gmail.com;
+-:sheep: Linkedin: https://www.linkedin.com/in/andrey-tsuzuki/;
 
 <br />
 
@@ -35,5 +35,5 @@ Sou programador **Fullstack** e atualmente estou sendo treinado pela **Trybe**.
     <img align="left" src="https://github-readme-stats.vercel.app/api/top-langs/?username=rosnaldo&theme=react&title_color=268bd2" alt="rosnaldo" />
 </p>
 <p>
-    <img align="top" src="https://github-readme-stats.vercel.app/api?username=rosnaldo&count_private=true&show_icons=true&theme=react&icon_color=268bd2&title_color=268bd2" alt="rosnaldo" />
+    <img align="justify" src="https://github-readme-stats.vercel.app/api?username=rosnaldo&count_private=true&show_icons=true&theme=react&icon_color=268bd2&title_color=268bd2" alt="rosnaldo" />
 </p>
