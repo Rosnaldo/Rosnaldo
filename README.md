@@ -8,7 +8,7 @@ Sou programador **Fullstack** e atualmente estou sendo treinado pela **Trybe**.
 - 🌱 Uso **React** no **front-end** e **node** para o **back-end**; 
 - 🤔 Meus hobbies são musculação / calistenia e videos e jogos de terror;
 - 📫 Meu email: andreytsuzuki@gmail.com;
--:sheep: Linkedin: https://www.linkedin.com/in/andrey-tsuzuki/;
+- :sheep: Linkedin: https://www.linkedin.com/in/andrey-tsuzuki/;
 
 <br />
 
