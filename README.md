@@ -35,5 +35,5 @@ Sou programador **Fullstack** e atualmente estou sendo treinado pela **Trybe**.
     <img align="left" width="300" src="https://github-readme-stats.vercel.app/api/top-langs/?username=rosnaldo&theme=react&title_color=268bd2" alt="rosnaldo" />
 </p>
 <p>
-    <img align="right" width="450" src="https://github-readme-stats.vercel.app/api?username=rosnaldo&count_private=true&show_icons=true&theme=react&icon_color=268bd2&title_color=268bd2" alt="rosnaldo" />
+    <img align="center" width="420" src="https://github-readme-stats.vercel.app/api?username=rosnaldo&count_private=true&show_icons=true&theme=react&icon_color=268bd2&title_color=268bd2" alt="rosnaldo" />
 </p>
