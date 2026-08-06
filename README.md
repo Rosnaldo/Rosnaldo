@@ -6,7 +6,7 @@ Once a match was found, both participants are notified and connected to a video 
 
 <picture>
   <source media="(max-width: 768px)" srcset="https://github.com/Rosnaldo/callqueue/blob/main/assets/architecture.png" width="100%">
-  <img src="https://github.com/Rosnaldo/callqueue/blob/main/assets/architecture.png" width="50%">
+  <img src="https://github.com/Rosnaldo/callqueue/blob/main/assets/architecture.png" width="70%">
 </picture>
 
 https://github.com/Rosnaldo/callqueue
@@ -22,7 +22,7 @@ Track and audit call sessions for per-minute credit billing. <br />
 
 <picture>
   <source media="(max-width: 768px)" srcset="https://github.com/Rosnaldo/call-center/blob/main/assets/architecture.png" width="100%">
-  <img src="https://github.com/Rosnaldo/call-center/blob/main/assets/architecture.png" width="50%">
+  <img src="https://github.com/Rosnaldo/call-center/blob/main/assets/architecture.png" width="70%">
 </picture>
 
 https://github.com/Rosnaldo/call-center
@@ -74,6 +74,7 @@ https://github.com/Rosnaldo/call-center
 • NAT Gateway allows private subnet to access internet.  
 • Api access DynamoDB via VPC endpoint.  
 
+https://github.com/Rosnaldo/aws-labs/tree/main/two-tier/simple
 
 <br />
 
@@ -86,6 +87,7 @@ A microservice high scalable to convert HTML into PDF.
   <img src="https://github.com/Rosnaldo/aws-labs/blob/main/pdf-generator/image.png" width="50%">
 </picture>
 
+### Considerations
 • The `SQS` receives a HTML as input.  
 • `SQS` triggers `EventBridge Pipe` which then creates `ECS Controller`.  
 • `ECS controller` manages the `ECS Generate PDF` and `ECS Merge PDF`.   
@@ -94,3 +96,5 @@ A microservice high scalable to convert HTML into PDF.
 • `ECS Generate PDF` polls `SQS` messages and uses the HTML to generate PDF using puppetter browser chromium and then stores on `S3`.  
 • Once all PDF pages are created `ECS Controller` creates the `ECS Merge PDF`.    
 • `ECS Merge PDF` merges all pages into one final PDF.   
+
+https://github.com/Rosnaldo/aws-labs/tree/main/pdf-generator
