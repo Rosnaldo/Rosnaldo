@@ -1,16 +1,28 @@
-## Hi there 👋
+## Callqueue
 
-<!--
-**Rosnaldo/Rosnaldo** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+### Manage customer waiting queue
+Redirects each customer to match an available attendant. <br />
+Once a match was found, both participants are notified and connected to a video call session. <br />
 
-Here are some ideas to get you started:
+<picture>
+  <source media="(max-width: 768px)" srcset="https://github.com/Rosnaldo/callqueue/blob/main/assets/architecture.png" width="100%">
+  <img src="https://github.com/Rosnaldo/callqueue/blob/main/assets/architecture.png" width="50%">
+</picture>
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+https://github.com/Rosnaldo/callqueue
+
+<br />
+
+## Call-Center
+
+### Manage session credits
+Track and audit call sessions for per-minute credit billing. <br />
+
+<br />
+
+<picture>
+  <source media="(max-width: 768px)" srcset="https://github.com/Rosnaldo/call-center/blob/main/assets/architecture.png" width="100%">
+  <img src="https://github.com/Rosnaldo/call-center/blob/main/assets/architecture.png" width="50%">
+</picture>
+
+https://github.com/Rosnaldo/call-center
