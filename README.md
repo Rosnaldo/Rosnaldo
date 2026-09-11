@@ -32,6 +32,7 @@ Track and audit call sessions for per-minute credit billing. <br />
 </picture>
 
 <br />
+
 ### Architecture decisions
 
 - `Monorepo` + `Keycloak` + `Nginx`
