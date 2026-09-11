@@ -41,7 +41,7 @@ Track and audit call sessions for per-minute credit billing. <br />
 - `MongoDB` with in-memory instance for tests end to end
 - `docker-compose.dev.yml` mock domain to mirror production
 - `docker-compose.dev.yml` bind volume to each folder apps/modules (avoid image rebuild for each code hot reaload)
-- `Redis` pub/sub manage internal shared services across microsrvices
+- `Redis` pub/sub manage internal shared services across microservices
 - `Websocket` publish state to sync frontend
 - `Dailyco` `webhook` integration for call state tracking
 - `Dailyco` provides video call infrastructure
