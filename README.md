@@ -9,6 +9,9 @@ Once a match was found, both participants are notified and connected to a video 
   <img src="https://github.com/Rosnaldo/callqueue/blob/main/assets/architecture.png" width="70%">
 </picture>
 
+<br />
+
+### Architecture decisions
 - Same infrastructure of above Call-center
 - `RabbitMQ` to manage queue
 
@@ -29,6 +32,7 @@ Track and audit call sessions for per-minute credit billing. <br />
 </picture>
 
 <br />
+### Architecture decisions
 
 - `Monorepo` + `Keycloak` + `Nginx`
 - `Nginx` routes internal services
