@@ -9,6 +9,9 @@ Once a match was found, both participants are notified and connected to a video 
   <img src="https://github.com/Rosnaldo/callqueue/blob/main/assets/architecture.png" width="70%">
 </picture>
 
+- Same infrastructure of above Call-center
+- `RabbitMQ` to manage queue
+
 https://github.com/Rosnaldo/callqueue
 
 <br />
@@ -24,6 +27,20 @@ Track and audit call sessions for per-minute credit billing. <br />
   <source media="(max-width: 768px)" srcset="https://github.com/Rosnaldo/call-center/blob/main/assets/architecture.png" width="100%">
   <img src="https://github.com/Rosnaldo/call-center/blob/main/assets/architecture.png" width="70%">
 </picture>
+
+<br />
+
+- `Monorepo` + `Keycloak` + `Nginx`
+- `Nginx` routes internal services
+- `Keycloak` manages IAM (sessions, authentication)
+- `MongoDB` with in-memory instance for tests end to end
+- `docker-compose.dev.yml` mock domain to mirror production
+- `docker-compose.dev.yml` bind volume to each folder apps/modules (avoid image rebuild for each code hot reaload)
+- `Redis` pub/sub manage internal shared services across microsrvices
+- `Websocket` publish state to sync frontend
+- `Dailyco` `webhook` integration for call state tracking
+- `Dailyco` provides video call infrastructure
+- Test orchestration using transport layer for WS simulation across services
 
 https://github.com/Rosnaldo/call-center
 
