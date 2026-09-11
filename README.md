@@ -35,7 +35,7 @@ Track and audit call sessions for per-minute credit billing. <br />
 
 ### Architecture decisions
 
-- `Monorepo` + `Keycloak` + `Nginx`
+- `Monorepo` containerized services
 - `Nginx` routes internal services
 - `Keycloak` manages IAM (sessions, authentication)
 - `MongoDB` with in-memory instance for tests end to end
