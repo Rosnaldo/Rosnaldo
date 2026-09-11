@@ -45,7 +45,7 @@ Track and audit call sessions for per-minute credit billing. <br />
 - `Websocket` publish state to sync frontend
 - `Dailyco` `webhook` integration for call state tracking
 - `Dailyco` provides video call infrastructure
-- Test orchestration using transport layer for WS simulation across services
+- Test orchestration using transport layer for Websocket simulation across services
 
 https://github.com/Rosnaldo/call-center
 
